@@ -73,9 +73,22 @@ object transGraph2 {
   
     val graph = Graph(verticeRDD.rdd, edgeRDD.rdd)
     
-    val sgraph = graph.connectedComponents()
-    //val sgraph = graph.stronglyConnectedComponents(2)
+    val degGraph = graph.outerJoinVertices(graph.degrees){
+      (vid, name, DegOpt) => (name, DegOpt.getOrElse(0))
+    }
+     
+     //去除边出入度和为2的图
+    var newgraph = degGraph.subgraph(vpred => (vpred.srcAttr._2 + vpred.srcAttr._2) > 2)
+    
+    
+    //val sgraph = graph.connectedComponents()
+    val sgraph = newgraph.stronglyConnectedComponents(2)
     println("vertice1:" + sgraph.vertices.first()._1 + "Belong to componet: " + sgraph.vertices.first()._2)
+    
+    
+    
+    
+    
     
   } 
   
