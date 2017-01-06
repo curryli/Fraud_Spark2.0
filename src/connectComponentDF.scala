@@ -110,15 +110,31 @@ println(connectedCount.count)
       (vid, name, DegOpt) => (name, DegOpt.getOrElse(0))
     }
      
-     //去除边出入度和为2的图
-    var tempgraph = degGraph.subgraph(triplet => (triplet.srcAttr._2 + triplet.dstAttr._2) > 2)
-
-    tempgraph.vertices.collect().foreach(println)
+     //去除边出入度和为2的边，，注意这时候这条边上的点还在，需要后续手动去除度为0的点
+    var coregraph = degGraph.subgraph(epred = triplet => (triplet.srcAttr._2 + triplet.dstAttr._2) > 2) 
+ 
+    coregraph = coregraph.outerJoinVertices(coregraph.degrees){
+       (vid, tempProperty, degOpt) => (tempProperty._1, degOpt.getOrElse(0))
+    }
+    
+    
+    //去除度为0的点
+    coregraph = coregraph.subgraph(vpred = (vid, property) => property._2!=0)
+    
+    coregraph.vertices.collect().foreach(println)
+    
+//(1,(a,2))
+//(2,(b,4))
+//(3,(c,3))
+//(4,(d,2))
+//(5,(e,3))
+//(6,(f,2))
+    
     
     val maxIterations=10   //the maximum number of iterations to run for
-    var cgraph = tempgraph.stronglyConnectedComponents(maxIterations)
+    var cgraph = degGraph.stronglyConnectedComponents(maxIterations)
     
-    val ccgraph = tempgraph.outerJoinVertices(cgraph.vertices){
+    val ccgraph = degGraph.outerJoinVertices(cgraph.vertices){
       (vid, tempProperty, connectedOpt) => (tempProperty._1, connectedOpt)
     }
     // ccgraph   (vid,顶点名称，对应团体)
@@ -140,7 +156,7 @@ println(connectedCount.count)
     val cCDF = connectedCount.toDF("cc","count")
     val cVDF = ccVertice.toDF("vid","name","cc")
     
-    var joinedDF = cVDF.join(cCDF, cVDF("cc") === cCDF("cc"), "left_outer").drop(cVDF("cc"))
+    var joinedDF = cVDF.join(cCDF, cVDF("cc") === cCDF("cc"), "left_outer").drop(cVDF("cc"))  
     joinedDF.show()
 
 //不drop
@@ -157,7 +173,7 @@ println(connectedCount.count)
 //|  8|   h|  8|  8|    1|
 //+---+----+---+---+-----+
     
-//drop
+//drop 去除重复   //而且必须是drop 左表的相应列cVDF("cc")   如果drop 右表的cCDF("cc")没有效果
 //+---+----+---+-----+
 //|vid|name| cc|count|
 //+---+----+---+-----+
