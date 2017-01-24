@@ -45,8 +45,8 @@ object Kmeans {
     
     
     import sqlContext.implicits._
-    val dataRDD = oridata.map(line => (line.split(',')(0).toLong, Vectors.dense( line.split(',').slice(1, 17).map(_.toDouble))))
-    val dataFrame = dataRDD.toDF("ccLabel", "ccFeatures")
+    val dataRDD = oridata.map(line => (line.split(',')(0).toLong, line.split(',').slice(1, 17).mkString(",") , Vectors.dense( line.split(',').slice(1, 17).map(_.toDouble))))
+    val dataFrame = dataRDD.toDF("ccLabel", "featureString", "ccFeatures")
     println("Original dataframe:")
     dataFrame.show(5) 
       
@@ -72,15 +72,9 @@ object Kmeans {
      println("KmeansResult: ")
     KmeansResult.show(5)
     
-    var df = KmeansResult.filter($"prediction"===1).select("ccLabel", "ccFeatures", "prediction")  
-    //df不能直接保存为csv格式，因为"ccFeatures"是 Vectors.dense类型的。而df.write.csv函数只能保存数组每一列是int double 或者string这一类基本类型的dataframe
-    
-    df = df.withColumn("featureString", df("ccFeatures").cast(org.apache.spark.sql.types.StringType))
-    
-    println("newdf: ")
-    df.show(5)
-    
-    df = df.select("ccLabel", "featureString", "prediction")
+    var df = KmeansResult.filter($"prediction"===1).select("ccLabel","featureString", "prediction")  
+    //df.write.csv函数只能保存数组每一列是int double 或者string这一类基本类型的dataframe   所以"ccFeatures"是 不能保存
+     
     df.write.csv("xrli/TeleFraud/testKmeansResult")
  
     sc.stop()
