@@ -3,12 +3,12 @@ package Algorithm
 import scala.reflect.ClassTag
 import org.apache.spark.graphx._
 import scala.Iterator
- 
+import org.apache.spark.sql.SparkSession
 
 /** Label Propagation algorithm. */
 object LPA {
  
-  def run[VD, ED: ClassTag](graph: Graph[VD, ED], maxSteps: Int=100): Graph[VertexId, ED] = {
+  def run[VD, ED: ClassTag](ss: SparkSession, graph: Graph[VD, ED], maxSteps: Int=100): Graph[VertexId, ED] = {
     require(maxSteps > 0, s"Maximum of steps must be greater than 0, but got ${maxSteps}")
 
     val lpaGraph = graph.mapVertices { case (vid, _) => vid }  //初始化图定点属性，即LPA的标签，开始时每个顶点的标签为顶点id
