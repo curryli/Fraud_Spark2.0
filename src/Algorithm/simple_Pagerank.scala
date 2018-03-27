@@ -138,6 +138,8 @@ object simple_Pagerank {
   
    // 上面的runUntilConvergence  思路好像很奇怪   val newPR = oldPR + (1.0 - resetProb) * msgSum    msgSum是每次的delta的和
   // 下面用正常思路来解题，  val newPR = resetProb/Noutdeg + (1.0 - resetProb) * msgSum     msgSum  是上一轮    sum(PRi/i出度)  的和                    edge.srcAttr._1 * edge.attr 中  edge.srcAttr._1就是PRi   edge.attr就是   1/i出度
+  // 上面的runUntilConvergence  思路好像很奇怪   val newPR = oldPR + (1.0 - resetProb) * msgSum    msgSum是每次的delta的和
+  // 下面用正常思路来解题，  val newPR = resetProb/Noutdeg + (1.0 - resetProb) * msgSum     msgSum  是上一轮    sum(PRi/i出度)  的和                    edge.srcAttr._1 * edge.attr 中  edge.srcAttr._1就是PRi   edge.attr就是   1/i出度
   def run_modify_until[VD: ClassTag, ED: ClassTag](graph: Graph[VD, ED], tol: Double, numIter: Int=200, resetProb: Double = 0.15): Graph[Double, Double] =
   {
  
@@ -183,7 +185,7 @@ object simple_Pagerank {
   
   
   
-  //注意输入的graph的边的属性这边限定了只有一个  double  即边权重
+  //注意输入的graph的边的属性这边限定了只有一个  double  即边权重                 run_modify_edgeweight  好像还有点bug
   def run_modify_edgeweight[VD: ClassTag, ED: ClassTag](graph: Graph[VD, Double], tol: Double, numIter: Int=200, resetProb: Double = 0.15): Graph[Double, Double] =
   {
  

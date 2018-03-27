@@ -23,7 +23,7 @@ import scala.reflect.ClassTag
 import Algorithm._
 import Math.{min,max}
 
-object card_mchnt_minmax {
+object mchnt_PRcnt {
   def main (args: Array[String]){
 
     val conf = new SparkConf()
@@ -88,26 +88,15 @@ object card_mchnt_minmax {
 		mergeCombiners
 	).map{case(k, v) =>{
 	  val totcnt = v._1
-	  val distcard = v._2.size
-	  var timeweight = 0.0
-	  if(v._3!=0)
-	    timeweight = v._1/v._3
-	  else
-	    timeweight = 10.0 
-	    (k, (totcnt, distcard, timeweight))
+	   
+	    (k, totcnt)
 	  }
 	}  //(总次数totcnt， 不同卡号数 distcard， 平均时间差 avgdiff 的倒数   )
     
 	
-	
-	val max_totcnt = statRDD.map(x=>x._2._1).reduce(max)
-	val min_distcard = statRDD.map(x=>x._2._2).reduce(min)
-	val max_distcard = statRDD.map(x=>x._2._2).reduce(max)
-	val min_timeweight = statRDD.map(x=>x._2._3).reduce(min)
-	val max_timeweight = statRDD.map(x=>x._2._3).reduce(max)
-	
-	println(max_totcnt, min_distcard, max_distcard, min_timeweight, max_timeweight)
-	
+	 val max_totcnt = statRDD.map(x=>x._2).reduce(max)
+	 
+ 
 	
 	//(x - min)/(max - min)
 	def NormInt(x:Int, Min:Int, Max:Int):Double ={
@@ -120,15 +109,14 @@ object card_mchnt_minmax {
  
  
   //map类型改变了，不能赋值给原来的statRDD  ，否则报错
-  var NormRDD = statRDD.map{case(k, v) => (k, (NormInt(v._1, 1, max_totcnt) , NormInt(v._2, min_distcard, max_distcard), NormDouble(v._3, min_timeweight, max_timeweight)))} 
-  NormRDD = NormRDD.filter(_._2._1>0)
-  println("NormRDD count:" + NormRDD.count)
-  NormRDD.take(100).foreach(println)
+  var NormRDD = statRDD.map{case(k, v) => (k, NormInt(v, 1, max_totcnt ))} 
+  NormRDD = NormRDD.filter(_._2>0) 
+	 
 	
 	val edgeRDD = NormRDD.map {f=>
         val srcId = f._1._1
         val dstId = f._1._2
-        val weight = f._2._1 + f._2._2 + f._2._3
+        val weight = f._2
         Edge(srcId, dstId, weight)
   } 
 	
@@ -152,7 +140,7 @@ object card_mchnt_minmax {
 	
 	 
     //val Convgraph = simple_Pagerank.run_modify_until(degGraph, tol=0.001,numIter=1000, resetProb= 0.15)
-     val Convgraph = simple_Pagerank.run_modify_edgeweight(degGraph, tol=0.001,numIter=1000, resetProb= 0.15)
+    val Convgraph = simple_Pagerank.run_modify_edgeweight(degGraph, tol=0.001,numIter=1000, resetProb= 0.15)
     //val Convgraph = simple_Pagerank.runUntilConvergence(degGraph, tol=0.001,numIter=1000, resetProb= 0.15)
     //val Convgraph = degGraph.pageRank(tol=0.001, resetProb= 0.15)
     
@@ -185,9 +173,9 @@ object card_mchnt_minmax {
 	  
 	  var PR_V_RDD = PRGraph.vertices.leftOuterJoin(Mcd_Mname_Rdd).map(x=> (x._2._2.getOrElse(" "), x._2._1._2))
 	  
-	  sc.parallelize(PR_V_RDD.sortBy(x=>x._2, ascending=false).take(500)).coalesce(1).saveAsTextFile("xrli/ValueAPI/MchntPagerank_ASC")
-	  sc.parallelize(PR_V_RDD.sortBy(x=>x._2, ascending=true).take(500)).coalesce(1).saveAsTextFile("xrli/ValueAPI/MchntPagerank_DESC")
-    
+//	  sc.parallelize(PR_V_RDD.sortBy(x=>x._2, ascending=false).take(500)).coalesce(1).saveAsTextFile("xrli/ValueAPI/MchntPagerank_ASC")
+//	  sc.parallelize(PR_V_RDD.sortBy(x=>x._2, ascending=true).take(500)).coalesce(1).saveAsTextFile("xrli/ValueAPI/MchntPagerank_DESC")
+//    
     
   }
   

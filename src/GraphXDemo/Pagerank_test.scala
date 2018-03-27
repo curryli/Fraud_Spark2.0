@@ -19,10 +19,10 @@ object Pagerank_test {
     val sc = new SparkContext(conf)
     
      
-    val graph: Graph[Int, Int] = GraphLoader.edgeListFile(sc, "xrli/graphx/testedges2.txt").cache
+    //val graph: Graph[Int, Int] = GraphLoader.edgeListFile(sc, "xrli/graphx/testedges2.txt").cache
+    val graph: Graph[Int, Int] = GraphLoader.edgeListFile(sc, "xrli/graphx/testright.csv").cache
     
-    
-    
+    graph.outDegrees.collect.foreach(println)
     
      
     val Convgraph = simple_Pagerank.runUntilConvergence(graph, tol=0.001,numIter=100, resetProb= 0.15)
@@ -32,12 +32,40 @@ object Pagerank_test {
     
     
     
-    val staticgraph = simple_Pagerank.run(graph, numIter=100, resetProb= 0.15)  //可以看出对于该数据，用静态算法很难得到准确的结果
+//    val staticgraph = simple_Pagerank.run(graph, numIter=100, resetProb= 0.15)  //可以看出对于该数据，用静态算法很难得到准确的结果
+//    
+//    println("Show staticgraph:")
+//   // staticgraph.vertices.collect().foreach(println) 
     
-    println("Show staticgraph:")
-   // staticgraph.vertices.collect().foreach(println) 
     
+    
+    
+    val modifygraph = simple_Pagerank.run_modify_until(graph, tol=0.001,numIter=100, resetProb= 0.15)  //可以看出对于该数据，用静态算法很难得到准确的结果
+    println("Show modifygraph:")
+    modifygraph.vertices.collect().foreach(println)  
     
     sc.stop
   }
 }
+
+
+//testright.csv 图是有向的
+
+//Show Convgraph:
+//(4,0.15)
+//(0,0.15)
+//(6,0.9149999999999999)
+//(2,0.15)
+//(1,0.15)
+//(3,0.15)
+//(7,0.9277499999999999)
+//(5,0.15)
+//Show modifygraph:
+//(4,0.16874999999999998)
+//(0,0.16874999999999998)
+//(6,0.879375)
+//(2,0.16874999999999998)
+//(1,0.16874999999999998)
+//(3,0.16874999999999998)
+//(7,0.7662187500000001)
+//(5,0.16874999999999998)

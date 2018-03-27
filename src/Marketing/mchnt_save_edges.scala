@@ -44,8 +44,8 @@ object mchnt_save_edges {
     
     var eRDD = lines.map { line=>
         val arr = line.split("\\001")
-        val srcId = arr(1)
-        val dstId = arr(2)
+        val srcId = arr(2)
+        val dstId = arr(1)
         val card = arr(0)
         val diff = arr(3)
         ((srcId, dstId), (1, card, diff))
