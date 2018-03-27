@@ -40,7 +40,7 @@ object simple_Pagerank {
 
   
   
-  //第二种（动态）PageRank模型    在调用时提供一个参数tol，用于指定前后两次迭代的结果差值应小于tol，以达到最终收敛的效果时才停止计算，返回图结果。
+//第二种（动态）PageRank模型    在调用时提供一个参数tol，用于指定前后两次迭代的结果差值应小于tol，以达到最终收敛的效果时才停止计算，返回图结果。
   //初始化参数和上面不同的是少了numIter（迭代次数），多了tol（比较两次迭代的结果差）
   def runUntilConvergence[VD: ClassTag, ED: ClassTag](graph: Graph[VD, ED], tol: Double, numIter: Int=200, resetProb: Double = 0.15): Graph[Double, Double] =
   {
@@ -82,4 +82,152 @@ object simple_Pagerank {
     pagerankGraph.unpersist(blocking=false)
     pregelGraph
   } 
+  
+  
+  
+  
+  def run_edgeweight_conv[VD: ClassTag](graph: Graph[VD, Double], tol: Double, numIter: Int=200, resetProb: Double = 0.15): Graph[Double, Double] =
+  {
+ 
+    val pagerankGraph: Graph[(Double, Double), Double] = graph
+      .outerJoinVertices(graph.outDegrees) {(vid, vdata, deg) => deg.getOrElse(0)}
+      .mapTriplets( e => e.attr * (1.0 / e.srcAttr) )
+      .mapVertices( (id, attr) => (0.0, 0.0) )   //顶点属性值的初始化，但是属性值带两个参数即（初始PR值，两次迭代结果的差值）
+      .cache()
+
+  // 同样用于得到一个迭代器，但是多了一个条件判定：如果源顶点的delta值小于tol就清空迭代器即返回空迭代。  
+    def sendMessage(edge: EdgeTriplet[(Double, Double), Double]) = {
+      if (edge.srcAttr._2 > tol) {
+        Iterator((edge.dstId, edge.srcAttr._2 * edge.attr))
+      } else {
+        Iterator.empty
+      }
+    }
+
+      //消息是deg ，double类型
+    def messageCombiner(a: Double, b: Double): Double = a + b
+
+    
+   //  多了一个返回值delta（newPR-oldPR）  
+    def vertexProgram(id: VertexId, attr: (Double, Double), msgSum: Double): (Double, Double) = {
+      val (oldPR, lastDelta) = attr
+      val newPR = oldPR + (1.0 - resetProb) * msgSum
+      (newPR, newPR - oldPR)
+    }
+    
+    // 每个顶点接受到的初始传递信息值不是0，而是resetProb / (1.0 - resetProb)  
+    val initialMessage = resetProb / (1.0 - resetProb)
+
+    // 动态执行 Pregel 模型（直至结果最终收敛）  
+    val pregelGraph = Pregel(pagerankGraph, initialMessage, numIter, activeDirection = EdgeDirection.Out)(
+      vertexProgram, sendMessage, messageCombiner).mapVertices((vid, attr) => attr._1)
+      
+            
+    pagerankGraph.unpersist(blocking=false)
+    pregelGraph
+  } 
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+   // 上面的runUntilConvergence  思路好像很奇怪   val newPR = oldPR + (1.0 - resetProb) * msgSum    msgSum是每次的delta的和
+  // 下面用正常思路来解题，  val newPR = resetProb/Noutdeg + (1.0 - resetProb) * msgSum     msgSum  是上一轮    sum(PRi/i出度)  的和                    edge.srcAttr._1 * edge.attr 中  edge.srcAttr._1就是PRi   edge.attr就是   1/i出度
+  def run_modify_until[VD: ClassTag, ED: ClassTag](graph: Graph[VD, ED], tol: Double, numIter: Int=200, resetProb: Double = 0.15): Graph[Double, Double] =
+  {
+ 
+    val G_size = graph.numVertices
+    val pagerankGraph: Graph[(Double, Double), Double] = graph
+      .outerJoinVertices(graph.outDegrees) {(vid, vdata, deg) => deg.getOrElse(0)}
+      .mapTriplets( e => 1.0 / e.srcAttr )
+      .mapVertices( (id, attr) => (0.0, 0.0) )   //顶点属性值的初始化，但是属性值带两个参数即（初始PR值，两次迭代结果的差值）
+      .cache()
+
+  // 同样用于得到一个迭代器，但是多了一个条件判定：如果源顶点的delta值小于tol就清空迭代器即返回空迭代。  
+    def sendMessage(edge: EdgeTriplet[(Double, Double), Double]) = {
+      if (edge.srcAttr._2 > tol) {
+        Iterator((edge.dstId, edge.srcAttr._1 * edge.attr))    
+      } else {
+        Iterator.empty
+      }
+    }
+
+      //消息是deg ，double类型
+    def messageCombiner(a: Double, b: Double): Double = a + b
+
+    
+   //  多了一个返回值delta（newPR-oldPR）  
+    def vertexProgram(id: VertexId, attr: (Double, Double), msgSum: Double): (Double, Double) = {
+      val (oldPR, lastDelta) = attr
+      val newPR = resetProb/G_size + (1.0 - resetProb) * msgSum
+      (newPR, newPR - oldPR)
+    }
+    
+    // 每个顶点接受到的初始传递信息值不是0，而是resetProb / (1.0 - resetProb)  
+    val initialMessage = resetProb / (1.0 - resetProb)
+
+    // 动态执行 Pregel 模型（直至结果最终收敛）  
+    val pregelGraph = Pregel(pagerankGraph, initialMessage, numIter, activeDirection = EdgeDirection.Out)(
+      vertexProgram, sendMessage, messageCombiner).mapVertices((vid, attr) => attr._1)
+      
+            
+    pagerankGraph.unpersist(blocking=false)
+    pregelGraph
+  } 
+  
+  
+  
+  
+  //注意输入的graph的边的属性这边限定了只有一个  double  即边权重
+  def run_modify_edgeweight[VD: ClassTag, ED: ClassTag](graph: Graph[VD, Double], tol: Double, numIter: Int=200, resetProb: Double = 0.15): Graph[Double, Double] =
+  {
+ 
+    val G_size = graph.numVertices
+       val pagerankGraph: Graph[(Double, Double), Double] = graph
+      .outerJoinVertices(graph.outDegrees) {(vid, vdata, deg) => deg.getOrElse(0)}
+      .mapTriplets( e => e.attr * (1.0 / e.srcAttr) )
+      .mapVertices( (id, attr) => (0.0, 0.0) )   //顶点属性值的初始化，但是属性值带两个参数即（初始PR值，两次迭代结果的差值）
+      .cache()
+
+  // 同样用于得到一个迭代器，但是多了一个条件判定：如果源顶点的delta值小于tol就清空迭代器即返回空迭代。  
+    def sendMessage(edge: EdgeTriplet[(Double, Double), Double]) = {
+      if (edge.srcAttr._2 > tol) {
+        Iterator((edge.dstId, edge.srcAttr._1 * edge.attr))
+      } else {
+        Iterator.empty
+      }
+    }
+
+      //消息是deg ，double类型
+    def messageCombiner(a: Double, b: Double): Double = a + b
+
+    
+   //  多了一个返回值delta（newPR-oldPR）  
+    def vertexProgram(id: VertexId, attr: (Double, Double), msgSum: Double): (Double, Double) = {
+      val (oldPR, lastDelta) = attr
+      val newPR = resetProb/G_size + (1.0 - resetProb) * msgSum
+      (newPR, newPR - oldPR)
+    }
+    
+    // 每个顶点接受到的初始传递信息值不是0，而是resetProb / (1.0 - resetProb)  
+    val initialMessage = resetProb / (1.0 - resetProb)
+
+    // 动态执行 Pregel 模型（直至结果最终收敛）  
+    val pregelGraph = Pregel(pagerankGraph, initialMessage, numIter, activeDirection = EdgeDirection.Out)(
+      vertexProgram, sendMessage, messageCombiner).mapVertices((vid, attr) => attr._1)
+      
+            
+    pagerankGraph.unpersist(blocking=false)
+    pregelGraph
+  } 
+  
+  
+  
+  
+  
 }

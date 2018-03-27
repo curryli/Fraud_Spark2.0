@@ -20,10 +20,10 @@ import org.apache.spark.graphx._
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.sql.functions._
 import scala.reflect.ClassTag
-
+import Algorithm._
 import Math.{min,max}
 
-object card_mchnt_pair {
+object card_mchnt_minmax {
   def main (args: Array[String]){
 
     val conf = new SparkConf()
@@ -86,17 +86,27 @@ object card_mchnt_pair {
 		createCombiner,
 		mergeValue,
 		mergeCombiners
-	).map{case(k, v) => (k, (v._1, v._2.size, v._3/v._1))}   //(总次数totcnt， 不同卡号数 distcard， 平均时间差 avgdiff)
+	).map{case(k, v) =>{
+	  val totcnt = v._1
+	  val distcard = v._2.size
+	  var timeweight = 0.0
+	  if(v._3!=0)
+	    timeweight = v._1/v._3
+	  else
+	    timeweight = 10.0 
+	    (k, (totcnt, distcard, timeweight))
+	  }
+	}  //(总次数totcnt， 不同卡号数 distcard， 平均时间差 avgdiff 的倒数   )
     
 	
 	
 	val max_totcnt = statRDD.map(x=>x._2._1).reduce(max)
 	val min_distcard = statRDD.map(x=>x._2._2).reduce(min)
 	val max_distcard = statRDD.map(x=>x._2._2).reduce(max)
-	val min_avgdiff = statRDD.map(x=>x._2._3).reduce(min)
-	val max_avgdiff = statRDD.map(x=>x._2._3).reduce(max)
+	val min_timeweight = statRDD.map(x=>x._2._3).reduce(min)
+	val max_timeweight = statRDD.map(x=>x._2._3).reduce(max)
 	
-	println(max_totcnt, min_distcard, max_distcard, min_avgdiff, max_avgdiff)
+	println(max_totcnt, min_distcard, max_distcard, min_timeweight, max_timeweight)
 	
 	
 	//(x - min)/(max - min)
@@ -110,7 +120,9 @@ object card_mchnt_pair {
  
  
   //map类型改变了，不能赋值给原来的statRDD  ，否则报错
-  val NormRDD = statRDD.map{case(k, v) => (k, (NormInt(v._1, 1, max_totcnt) , NormInt(v._2, min_distcard, max_distcard), NormDouble(v._2, min_avgdiff, max_avgdiff)))} 
+  var NormRDD = statRDD.map{case(k, v) => (k, (NormInt(v._1, 1, max_totcnt) , NormInt(v._2, min_distcard, max_distcard), NormDouble(v._3, min_timeweight, max_timeweight)))} 
+  NormRDD = NormRDD.filter(_._2._1>0)
+  println("NormRDD count:" + NormRDD.count)
   NormRDD.take(100).foreach(println)
 	
 	val edgeRDD = NormRDD.map {f=>
@@ -121,10 +133,62 @@ object card_mchnt_pair {
   } 
 	
 	var origraph = Graph(verticeRDD, edgeRDD).partitionBy(PartitionStrategy.RandomVertexCut)    //必须在调用groupEdges之前调用Graph.partitionBy 。
+     
+  val tempDegGraph = origraph.outerJoinVertices(origraph.degrees){
+      (vid, encard, DegOpt) => (encard, DegOpt.getOrElse(0))
+    }
+     
+     //去除边出入度和为2的图
+    var coregraph = tempDegGraph.subgraph(epred = triplet => (triplet.srcAttr._2 + triplet.dstAttr._2) > 2) 
+ 
+    coregraph = coregraph.outerJoinVertices(coregraph.degrees){
+       (vid, tempProperty, degOpt) => (tempProperty._1, degOpt.getOrElse(0))
+    } 
     
-	origraph.edges.take(100).foreach(println)
+    //去除度为0的点
+    val degGraph = coregraph.subgraph(vpred = (vid, property) => property._2!=0)
 	
+		degGraph.edges.take(100).foreach(println)
 	
+	 
+     
+    //val Convgraph = simple_Pagerank.run_modify_edgeweight(degGraph, tol=0.001,numIter=1000, resetProb= 0.15)
+    //val Convgraph = simple_Pagerank.runUntilConvergence(degGraph, tol=0.001,numIter=1000, resetProb= 0.15)
+     val Convgraph = degGraph.pageRank(tol=0.001, resetProb= 0.15)
+    
+//    println("Show Convgraph:")
+//    Convgraph.vertices.take(100).foreach(println)
+    println("Show sorted Convgraph:")
+    Convgraph.vertices.sortBy(x=>x._2, ascending=false).take(100).foreach(println)
+    
+     
+    
+    
+    val Mcd_Mname = sc.textFile("hdfs://nameservice1/user/hive/warehouse/00012900_shanghai.db/mcd_mname")
+    
+    var Mcd_Mname_Rdd = Mcd_Mname.map(line=>{
+	   val arr = line.split("\\001")
+	   if( arr.length>1)
+	     (HashEncode.HashMD5(arr(0)), arr(1)) 
+     else
+       (0L, " ")}
+	  )
+    
+	  
+	  
+	  
+	  val PRGraph = degGraph.outerJoinVertices(Convgraph.vertices){
+       (vid, tempProperty, PROpt) => (tempProperty._1, PROpt.getOrElse(0.0))
+    } 
+	  
+	  
+	  
+	  var PR_V_RDD = PRGraph.vertices.leftOuterJoin(Mcd_Mname_Rdd).map(x=> (x._2._2.getOrElse(" "), x._2._1._2))
+	  
+	  sc.parallelize(PR_V_RDD.sortBy(x=>x._2, ascending=false).take(500)).coalesce(1).saveAsTextFile("xrli/ValueAPI/MchntPagerank_ASC")
+	  sc.parallelize(PR_V_RDD.sortBy(x=>x._2, ascending=true).take(500)).coalesce(1).saveAsTextFile("xrli/ValueAPI/MchntPagerank_DESC")
+    
+    
   }
   
 }
