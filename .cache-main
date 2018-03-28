@@ -27,7 +27,7 @@ name hashing:
 1 items
 0 -> false
 products:
-365 items
+367 items
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\ConnectedComponents.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\ConnectedComponents$$anonfun$1.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\ConnectedComponents.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\ConnectedComponents$$anonfun$2.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\ConnectedComponents.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\ConnectedComponents$$anonfun$3.class
@@ -79,41 +79,43 @@ D:\githubProjects\Fraud_Spark2.0\src\Algorithm\myLPA.scala -> D:\githubProjects\
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\myLPA.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\myLPA.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$1.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$10.class
-D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$11$$anonfun$apply$2.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$11.class
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$12$$anonfun$apply$2.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$12.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$13.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$14.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$15.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$16.class
-D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$17$$anonfun$apply$3.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$17.class
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$18$$anonfun$apply$3.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$18.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$19.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$2.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$20.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$21.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$22.class
-D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$23$$anonfun$apply$4.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$23.class
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$24$$anonfun$apply$4.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$24.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$25.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$26.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$27.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$28.class
-D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$29$$anonfun$apply$5.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$29.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$3.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$30.class
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$31$$anonfun$apply$5.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$31.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$32.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$33.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$34.class
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$35.class
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$36.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$4.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$5.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$6.class
-D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$7$$anonfun$apply$1.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$7.class
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$8$$anonfun$apply$1.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$8.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$9.class
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$.class
@@ -590,7 +592,7 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-365 items
+367 items
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\ConnectedComponents.scala -> Algorithm.ConnectedComponents
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\ConnectedComponents.scala -> Algorithm.ConnectedComponents$
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\ConnectedComponents.scala -> Algorithm.ConnectedComponents$$anonfun$1
@@ -645,41 +647,43 @@ D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorith
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$1
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$10
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$11
-D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$11$$anonfun$apply$2
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$12
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$12$$anonfun$apply$2
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$13
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$14
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$15
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$16
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$17
-D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$17$$anonfun$apply$3
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$18
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$18$$anonfun$apply$3
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$19
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$2
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$20
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$21
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$22
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$23
-D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$23$$anonfun$apply$4
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$24
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$24$$anonfun$apply$4
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$25
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$26
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$27
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$28
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$29
-D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$29$$anonfun$apply$5
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$3
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$30
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$31
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$31$$anonfun$apply$5
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$32
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$33
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$34
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$35
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$36
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$4
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$5
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$6
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$7
-D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$7$$anonfun$apply$1
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$8
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$8$$anonfun$apply$1
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> Algorithm.simple_Pagerank$$anonfun$9
 D:\githubProjects\Fraud_Spark2.0\src\connectComponentDF.scala -> connectComponentDF
 D:\githubProjects\Fraud_Spark2.0\src\connectComponentDF.scala -> connectComponentDF$
@@ -959,7 +963,7 @@ D:\githubProjects\Fraud_Spark2.0\src\transGraph2.scala -> transGraph2$$typecreat
 used names:
 0 items
 product stamps:
-365 items
+367 items
 D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\ConnectedComponents$$anonfun$1.class -> lastModified(1518405918008)
 D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\ConnectedComponents$$anonfun$2.class -> lastModified(1518405918015)
 D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\ConnectedComponents$$anonfun$3.class -> lastModified(1518405918021)
@@ -1009,47 +1013,49 @@ D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\myLPA$$anonfun$Algorithm$myLPA$$v
 D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\myLPA$$anonfun$run$1.class -> lastModified(1518419291247)
 D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\myLPA$.class -> lastModified(1518419291068)
 D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\myLPA.class -> lastModified(1518419290945)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$1.class -> lastModified(1522144175078)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$10.class -> lastModified(1522144175084)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$11$$anonfun$apply$2.class -> lastModified(1522144175093)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$11.class -> lastModified(1522144175089)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$12.class -> lastModified(1522144175098)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$13.class -> lastModified(1522144175102)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$14.class -> lastModified(1522144175108)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$15.class -> lastModified(1522144175113)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$16.class -> lastModified(1522144175118)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$17$$anonfun$apply$3.class -> lastModified(1522144175127)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$17.class -> lastModified(1522144175122)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$18.class -> lastModified(1522144175131)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$19.class -> lastModified(1522144175135)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$2.class -> lastModified(1522144175140)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$20.class -> lastModified(1522144175145)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$21.class -> lastModified(1522144175153)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$22.class -> lastModified(1522144175157)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$23$$anonfun$apply$4.class -> lastModified(1522144175167)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$23.class -> lastModified(1522144175163)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$24.class -> lastModified(1522144175172)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$25.class -> lastModified(1522144175177)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$26.class -> lastModified(1522144175182)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$27.class -> lastModified(1522144175187)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$28.class -> lastModified(1522144175191)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$29$$anonfun$apply$5.class -> lastModified(1522144175200)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$29.class -> lastModified(1522144175196)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$3.class -> lastModified(1522144175204)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$30.class -> lastModified(1522144175209)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$31.class -> lastModified(1522144175225)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$32.class -> lastModified(1522144175230)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$33.class -> lastModified(1522144175235)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$34.class -> lastModified(1522144175240)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$4.class -> lastModified(1522144175244)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$5.class -> lastModified(1522144175249)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$6.class -> lastModified(1522144175253)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$7$$anonfun$apply$1.class -> lastModified(1522144175263)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$7.class -> lastModified(1522144175258)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$8.class -> lastModified(1522144175267)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$9.class -> lastModified(1522144175272)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$.class -> lastModified(1522144175067)
-D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank.class -> lastModified(1522144174955)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$1.class -> lastModified(1522201021319)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$10.class -> lastModified(1522201021326)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$11.class -> lastModified(1522201021331)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$12$$anonfun$apply$2.class -> lastModified(1522201021341)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$12.class -> lastModified(1522201021335)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$13.class -> lastModified(1522201021345)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$14.class -> lastModified(1522201021349)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$15.class -> lastModified(1522201021354)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$16.class -> lastModified(1522201021358)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$17.class -> lastModified(1522201021362)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$18$$anonfun$apply$3.class -> lastModified(1522201021372)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$18.class -> lastModified(1522201021367)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$19.class -> lastModified(1522201021376)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$2.class -> lastModified(1522201021380)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$20.class -> lastModified(1522201021385)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$21.class -> lastModified(1522201021390)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$22.class -> lastModified(1522201021395)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$23.class -> lastModified(1522201021399)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$24$$anonfun$apply$4.class -> lastModified(1522201021409)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$24.class -> lastModified(1522201021405)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$25.class -> lastModified(1522201021413)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$26.class -> lastModified(1522201021420)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$27.class -> lastModified(1522201021426)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$28.class -> lastModified(1522201021430)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$29.class -> lastModified(1522201021434)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$3.class -> lastModified(1522201021439)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$30.class -> lastModified(1522201021443)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$31$$anonfun$apply$5.class -> lastModified(1522201021451)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$31.class -> lastModified(1522201021447)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$32.class -> lastModified(1522201021456)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$33.class -> lastModified(1522201021460)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$34.class -> lastModified(1522201021464)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$35.class -> lastModified(1522201021469)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$36.class -> lastModified(1522201021474)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$4.class -> lastModified(1522201021477)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$5.class -> lastModified(1522201021481)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$6.class -> lastModified(1522201021485)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$7.class -> lastModified(1522201021489)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$8$$anonfun$apply$1.class -> lastModified(1522201021497)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$8.class -> lastModified(1522201021493)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$$anonfun$9.class -> lastModified(1522201021500)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank$.class -> lastModified(1522201021310)
+D:\githubProjects\Fraud_Spark2.0\bin\Algorithm\simple_Pagerank.class -> lastModified(1522201021199)
 D:\githubProjects\Fraud_Spark2.0\bin\connectComponentDF$$anonfun$1.class -> lastModified(1518405918506)
 D:\githubProjects\Fraud_Spark2.0\bin\connectComponentDF$$anonfun$10.class -> lastModified(1518405918510)
 D:\githubProjects\Fraud_Spark2.0\bin\connectComponentDF$$anonfun$2$$anonfun$apply$1.class -> lastModified(1518405918517)
@@ -1331,7 +1337,7 @@ D:\githubProjects\Fraud_Spark2.0\src\Algorithm\ConnectedComponents.scala -> hash
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\HashEncode.scala -> hash(67b1b1724c13810d41939071a6dd7891d0158c2e)
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\LPA.scala -> hash(5cffe55e0a054ee0592237fbb3bf8d2990ba956b)
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\myLPA.scala -> hash(129ca076427d2fc07a0269f8110e1083d79236d3)
-D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> hash(3a245b99ca947d0171e21629e892072acb339eee)
+D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> hash(ea735a43856732ee3eceab49fa1bc6168b78a827)
 D:\githubProjects\Fraud_Spark2.0\src\connectComponentDF.scala -> hash(5c71e2798cc114c40e30bceae181333765be7829)
 D:\githubProjects\Fraud_Spark2.0\src\DataSetTest\Kmeans.scala -> hash(7b042c33d3dabac3e577f8be1c15018d51dcfe7c)
 D:\githubProjects\Fraud_Spark2.0\src\DataSetTest\testDataSet.scala -> hash(9fa7b8d1bf383e03f5fd11f9abfe82b3f06e5eac)
@@ -1375,11 +1381,11 @@ class names:
 C:\Program Files\Java\jre1.8.0_101\lib\jce.jar -> javax.crypto.spec.SecretKeySpec
 C:\Program Files\Java\jre1.8.0_101\lib\rt.jar -> java.lang.Object
 D:\scala-SDK-4.3.0-vfinal-2.11-win32.win32.x86_64\eclipse\hadoopjar\hdfs\log4j-1.2.17.jar -> org.apache.log4j.Level
-D:\scala-SDK-4.3.0-vfinal-2.11-win32.win32.x86_64\eclipse\sparkJars\spark2\scala-library-2.11.8.jar -> scala.collection.generic.GenericCompanion
+D:\scala-SDK-4.3.0-vfinal-2.11-win32.win32.x86_64\eclipse\sparkJars\spark2\scala-library-2.11.8.jar -> scala.reflect.ClassTag
 D:\scala-SDK-4.3.0-vfinal-2.11-win32.win32.x86_64\eclipse\sparkJars\spark2\scala-reflect-2.11.8.jar -> scala.reflect.api.JavaUniverse
 D:\scala-SDK-4.3.0-vfinal-2.11-win32.win32.x86_64\eclipse\sparkJars\spark2\spark-catalyst_2.11-2.0.0.cloudera.beta2.jar -> org.apache.spark.sql.Row
 D:\scala-SDK-4.3.0-vfinal-2.11-win32.win32.x86_64\eclipse\sparkJars\spark2\spark-core_2.11-2.0.0.cloudera.beta2.jar -> org.apache.spark.SparkContext
-D:\scala-SDK-4.3.0-vfinal-2.11-win32.win32.x86_64\eclipse\sparkJars\spark2\spark-graphx_2.11-2.0.0.cloudera.beta2.jar -> org.apache.spark.graphx.Edge$
+D:\scala-SDK-4.3.0-vfinal-2.11-win32.win32.x86_64\eclipse\sparkJars\spark2\spark-graphx_2.11-2.0.0.cloudera.beta2.jar -> org.apache.spark.graphx.GraphOps
 D:\scala-SDK-4.3.0-vfinal-2.11-win32.win32.x86_64\eclipse\sparkJars\spark2\spark-hive_2.11-2.0.0.cloudera.beta2.jar -> org.apache.spark.sql.hive.HiveContext
 D:\scala-SDK-4.3.0-vfinal-2.11-win32.win32.x86_64\eclipse\sparkJars\spark2\spark-mllib-local_2.11-2.0.0.cloudera.beta2.jar -> org.apache.spark.ml.linalg.Vectors$
 D:\scala-SDK-4.3.0-vfinal-2.11-win32.win32.x86_64\eclipse\sparkJars\spark2\spark-mllib_2.11-2.0.0.cloudera.beta2.jar -> org.apache.spark.mllib.stat.Statistics$
@@ -1395,7 +1401,7 @@ rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhf
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\myLPA.scala -> 
 rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCoH10VAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAPQWxnb3JpdGhtLm15TFBBdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgAuAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgAVTAAJaW5oZXJpdGVkcQB+ABVMAAdwYXJlbnRzcQB+ABV4cQB+ADVzcQB+AC4BdXEAfgAQAAAAAHBzcQB+AC4BdXEAfgAQAAAAAHBzcQB+AC4BdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+ABxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgA0dAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgA0c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4AHHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgBNdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBOc3EAfgBBdAADQW55c3EAfgBFc3EAfgBIdXEAfgBLAAAAAnNxAH4ATXQABXNjYWxhcQB+AFRwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+ABx4cHQACUFsZ29yaXRobXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYYjXlNR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+ABxMAA9zb3VyY2VEaXJlY3RvcnlxAH4AHHhwdAAkRDpcZ2l0aHViUHJvamVjdHNcRnJhdWRfU3BhcmsyLjBcYmludAAkRDpcZ2l0aHViUHJvamVjdHNcRnJhdWRfU3BhcmsyLjBcc3JjdXIAAltCrPMX+AYIVOACAAB4cAAAABQSnKB2Qn0vwHoCafgRDhCD15I20w==
 D:\githubProjects\Fraud_Spark2.0\src\Algorithm\simple_Pagerank.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC2ttLTAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAZQWxnb3JpdGhtLnNpbXBsZV9QYWdlcmFua3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbDuRTxH0RUzJAgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4ALgFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AFUwACWluaGVyaXRlZHEAfgAVTAAHcGFyZW50c3EAfgAVeHEAfgA1c3EAfgAuAXVxAH4AEAAAAABwc3EAfgAuAXVxAH4AEAAAAABwc3EAfgAuAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAcTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4ANHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4ANHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+ABx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4ATXQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4ATnNxAH4AQXQAA0FueXNxAH4ARXNxAH4ASHVxAH4ASwAAAAJzcQB+AE10AAVzY2FsYXEAfgBUcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAceHB0AAlBbGdvcml0aG1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWJm3MwFdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAcTAAPc291cmNlRGlyZWN0b3J5cQB+ABx4cHQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXGJpbnQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXHNyY3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUOiRbmcqUfQFx4hYp6JIHKssznu4=
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC2ttLTAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAZQWxnb3JpdGhtLnNpbXBsZV9QYWdlcmFua3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbDuRTxH0RUzJAgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4ALgFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AFUwACWluaGVyaXRlZHEAfgAVTAAHcGFyZW50c3EAfgAVeHEAfgA1c3EAfgAuAXVxAH4AEAAAAABwc3EAfgAuAXVxAH4AEAAAAABwc3EAfgAuAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAcTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4ANHQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4ANHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+ABx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4ATXQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4ATnNxAH4AQXQAA0FueXNxAH4ARXNxAH4ASHVxAH4ASwAAAAJzcQB+AE10AAVzY2FsYXEAfgBUcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAceHB0AAlBbGdvcml0aG1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWJqQDfcdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAcTAAPc291cmNlRGlyZWN0b3J5cQB+ABx4cHQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXGJpbnQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXHNyY3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU6nNaQ4VnMu4+zqtJ+hvGFot4qCc=
 D:\githubProjects\Fraud_Spark2.0\src\connectComponentDF.scala -> 
 rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBM0opFAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAASY29ubmVjdENvbXBvbmVudERGdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AL3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4ALgBwc3EAfgAzc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+ABVMAAlpbmhlcml0ZWRxAH4AFUwAB3BhcmVudHNxAH4AFXhxAH4AN3NxAH4ALgBwc3EAfgAzdXEAfgAQAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgAWcQB+ACB1cQB+ACEAAAAAc3EAfgAjAHQABG1haW51cQB+ACYAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAcTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4ANnQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+ADZzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAceHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AFV1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4AHEwAA3RwZXEAfgBBeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgApdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBJWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgA2c3EAfgBIdAAFQXJyYXlxAH4ATnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBIdAAGU3RyaW5nc3EAfgBMc3EAfgBPdXEAfgBSAAAAA3NxAH4AVHQABGphdmFzcQB+AFR0AARsYW5ncQB+AFlzcQB+AC4AcHNxAH4AM3VxAH4AEAAAAABzcQB+AC4AcHNxAH4AM3VxAH4AbQAAAAJzcQB+AEh0AAZPYmplY3RxAH4AcXNxAH4ASHQAA0FueXEAfgBOdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWGIC4fSdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAcTAAPc291cmNlRGlyZWN0b3J5cQB+ABx4cHQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXGJpbnQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXHNyY3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUXHHieYzBFMQOMLzq4YEzN2W+eCk=
 D:\githubProjects\Fraud_Spark2.0\src\DataSetTest\Kmeans.scala -> 
@@ -1507,7 +1513,7 @@ AAAAAAAAAAA=
 D:\githubProjects\Fraud_Spark2.0\src\transGraph2.scala -> 
 AAAAAAAAAAA=
 compilations:
-177 items
+179 items
 000 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWWjMm9x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMUM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRGVza3RvcFxGcmF1ZF9TcGFyazIuMFxiaW50ADFDOlxVc2Vyc1xBZG1pbmlzdHJhdG9yXERlc2t0b3BcRnJhdWRfU3BhcmsyLjBcc3Jj
 001 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWWjM9H11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMUM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRGVza3RvcFxGcmF1ZF9TcGFyazIuMFxiaW50ADFDOlxVc2Vyc1xBZG1pbmlzdHJhdG9yXERlc2t0b3BcRnJhdWRfU3BhcmsyLjBcc3Jj
 002 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWWzcojp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAMUM6XFVzZXJzXEFkbWluaXN0cmF0b3JcRGVza3RvcFxGcmF1ZF9TcGFyazIuMFxiaW50ADFDOlxVc2Vyc1xBZG1pbmlzdHJhdG9yXERlc2t0b3BcRnJhdWRfU3BhcmsyLjBcc3Jj
@@ -1685,3 +1691,5 @@ compilations:
 174 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYmbROfx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXGJpbnQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXHNyYw==
 175 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYmbYa6x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXGJpbnQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXHNyYw==
 176 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYmbczAV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXGJpbnQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXHNyYw==
+177 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYmo7u4x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXGJpbnQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXHNyYw==
+178 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYmpAN9x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXGJpbnQAJEQ6XGdpdGh1YlByb2plY3RzXEZyYXVkX1NwYXJrMi4wXHNyYw==

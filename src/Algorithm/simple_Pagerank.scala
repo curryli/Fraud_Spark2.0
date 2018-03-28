@@ -185,13 +185,16 @@ object simple_Pagerank {
   
   
   
-  //注意输入的graph的边的属性这边限定了只有一个  double  即边权重                 run_modify_edgeweight  好像还有点bug
+  //注意输入的graph的边的属性这边限定了只有一个  double  即边权重                参照textrank
   def run_modify_edgeweight[VD: ClassTag, ED: ClassTag](graph: Graph[VD, Double], tol: Double, numIter: Int=200, resetProb: Double = 0.15): Graph[Double, Double] =
   {
  
+    //先求每个顶点 对应的  出度边的权重和
+    val out_weight_agg = graph.aggregateMessages[Double](triplet => triplet.sendToSrc(triplet.attr), _ + _)
+    
     val G_size = graph.numVertices
        val pagerankGraph: Graph[(Double, Double), Double] = graph
-      .outerJoinVertices(graph.outDegrees) {(vid, vdata, deg) => deg.getOrElse(0)}
+      .outerJoinVertices(out_weight_agg) {(vid, vdata, deg) => deg.getOrElse(0.0)}
       .mapTriplets( e => e.attr * (1.0 / e.srcAttr) )
       .mapVertices( (id, attr) => (0.0, 0.0) )   //顶点属性值的初始化，但是属性值带两个参数即（初始PR值，两次迭代结果的差值）
       .cache()
